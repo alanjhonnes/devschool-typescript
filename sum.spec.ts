@@ -1,4 +1,4 @@
-import { sum } from "./1-tipos-basicos";
+import { sum } from "./src/typescript/exercicios/1-tipos-basicos";
 
 describe('index', () => {
     it('test sum', () => {
@@ -6,6 +6,6 @@ describe('index', () => {
     })
 
     it('should sum 2 and 4', () => {
-        expect(sum(2, 4)).toBe(6); 
+        expect(sum(2, 4)).toBe(6);
     });
 });

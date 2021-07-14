@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsc --watch",
-    "test": "jest"
+    "test": "jest --watch"
   },
   "author": "Alan Jhonnes <alanjhonnes@gmail.com>",
   "license": "MIT",

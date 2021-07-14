@@ -28,4 +28,4 @@ const totalNumeros = arrayNumeros
         return acumulador + valorAtual
     }, 0)
 
-const alan = arrayDeObjetos.find(pessoa => pessoa.nome === 'Alan');
+export const pessoa = arrayDeObjetos.find(pessoa => pessoa.nome === 'Alan');

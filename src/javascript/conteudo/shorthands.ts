@@ -20,3 +20,26 @@ const myArrowFnObjetoShorthand = () => (
 
 
 const arrowFnComUmArgumento = x => x * 2;
+
+let prop1 = 'a';
+let prop2 = 'b';
+
+const inicializadorDeObjeto = {
+    prop1: prop1,
+    prop2: prop2,
+    metodo: function (arg) {
+        console.log(arg)
+    }
+}
+
+const duplicacaoDeObjetoComSpread = {
+    ...inicializadorDeObjeto,
+}
+
+const inicializadorDeObjetoShorthand = {
+    prop1,
+    prop2,
+    metodo(arg) {
+        console.log(arg)
+    },
+}

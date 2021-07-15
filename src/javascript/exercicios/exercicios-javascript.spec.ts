@@ -19,7 +19,7 @@ describe("Exercicios Javascript", () => {
     });
 
     describe("Elevar ao quadrado", () => {
-        it("Deve retornar a soma de todos os items do array", () => {
+        it("Deve retornar o quadrado de cada item do array", () => {
             const input = [1, 2, 3, 4];
             const result = [1, 4, 9, 16];
             expect(elevarAoQuadrado(input)).toEqual(result);

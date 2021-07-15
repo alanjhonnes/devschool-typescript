@@ -7,8 +7,12 @@ const arrayDeObjetos = [
 ]
 
 const matriz2d = [
-    [1, 2, 3, 4],
-    [5, 6, 7, 8],
+    [1, 2, 3],
+    [4, 5, 6],
+    [4, 5, 6],
+    [4, 5, 6],
+    [4, 5, 6],
+    [4, 5, 6],
 ]
 
 const dobroNumeros = arrayNumeros
@@ -25,6 +29,7 @@ const nomesQueComecamComA = listaDeNomes
 
 const totalNumeros = arrayNumeros
     .reduce((acumulador, valorAtual) => {
+
         return acumulador + valorAtual
     }, 0)
 

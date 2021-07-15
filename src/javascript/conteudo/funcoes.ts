@@ -9,5 +9,11 @@ const funcao = function () {
 
 // funcoes anonimas (em formato arrow-function) podem ser atribuidas a variáveis
 const arrowFn = () => {
-    return 2;
+    const a = 5;
+
+    () => {
+        a
+    }
 }
+
+

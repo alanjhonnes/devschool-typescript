@@ -7,7 +7,7 @@ let primitivaBigInt = 123456789012345678901234567890n;
 
 let primitivaBoolean = true;
 
-let primitivaSymbol = Symbol('meuSymbol');
+let primitivaSymbol = Symbol();
 
 const primitivaUndefined = undefined;
 

@@ -1,15 +1,13 @@
 // Shorthand de Arrow functions
 
-const myArrowFn = () => {
-    return 'result';
+const myArrowFn = (a, b) => {
+    return;
 };
 
 const myArrowFnShorthand = () => 'result';
 
 const myArrowFnObjeto = () => {
-    return {
-        resultado: 'result'
-    };
+    resultado: 'result'
 };
 
 const myArrowFnObjetoShorthand = () => (
@@ -32,14 +30,18 @@ const inicializadorDeObjeto = {
     }
 }
 
-const duplicacaoDeObjetoComSpread = {
-    ...inicializadorDeObjeto,
-}
+inicializadorDeObjeto.metodo('xpto');
 
 const inicializadorDeObjetoShorthand = {
-    prop1,
+    propriedadeComNomeCerto: prop1,
     prop2,
     metodo(arg) {
         console.log(arg)
     },
 }
+
+const duplicacaoDeObjetoComSpread = {
+    ...inicializadorDeObjeto,
+}
+
+

@@ -1,12 +1,13 @@
-for (let i = 0; i < 10; i++) {
+const vetor = [1, 2];
+const tamanhoVetor = vetor.length;
+for (let i = 0; i < tamanhoVetor; i++) {
     console.log(i);
 }
 
 let j = 0;
-while (j < 10) {
-    j++;
-    console.log(j);
-    continue;
+let pessoaEncontrada = false
+while (pessoaEncontrada === false) {
+    pessoaEncontrada = true;
     console.log(j);
 }
 

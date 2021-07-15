@@ -3,18 +3,15 @@ const objetoParaDestruturar = {
     numero: 1,
 }
 
-// const nomeObjeto = objetoParaDestruturar.nome;
-// const titulobjeto = objetoParaDestruturar.titulo;
+const nomeObjeto = objetoParaDestruturar.nome;
+const numerobjeto = objetoParaDestruturar.numero;
 
-const { nome = "Nathan", numero = 2 } = objetoParaDestruturar;
+const { nome: nome, numero: numero } = objetoParaDestruturar;
+nome
+numero
 
 // renomeando para variáveis diferentes
 const { nome: nomeAlias, numero: numeroAlias } = objetoParaDestruturar;
-
-const bigInt: bigint = 234234243234n;
-
-type X = (arg: string) => boolean;
-
 
 const arrayParaDestruturar = [1, 2, 3, 4, 5] as const;
 

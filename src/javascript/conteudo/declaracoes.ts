@@ -7,7 +7,7 @@ a = 10;
 a = 20;
 
 // Declarações de constantes não podem sofrer alteração posteriormente, então precisam ser inicializadas com um valor
-const x = '1';
+const x = 5;
 
 // Inicializações de valores básicos:
 
@@ -21,7 +21,7 @@ const undef = undefined;
 
 const array = [];
 
-const arrayComValores = [1, 2, 3];
+const arrayComValores = [1, 2, 3, ''];
 
 const array2d = [
     [1, 2, 3],

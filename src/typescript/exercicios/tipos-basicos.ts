@@ -1,13 +1,13 @@
 // Complete as funções com os tipos apropriados
 
-function soma(a, b) {
+function soma(a: number, b: number): number {
     return a + b;
 }
 
-function concatenaPalavras(palavra1, palavra2) {
+function concatenaPalavras(palavra1: string, palavra2: string): string {
     return palavra1.concat(palavra2)
 }
 
-function tamanhoDoVetor(vetor) {
+function tamanhoDoVetor(vetor: Array<any>): number {
     return vetor.length;
 }

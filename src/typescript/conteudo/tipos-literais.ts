@@ -18,6 +18,6 @@ type Generico<TipoItem extends number, TipoNome = string> = {
 }
 
 const generico: Generico<1 | 2 | 3> = {
-    item: 4,
+    item: 3,
     nome: 'nome'
 }

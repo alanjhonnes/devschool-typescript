@@ -1,23 +1,11 @@
 // Crie uma interface para representar cada um dos objetos abaixo e coloque o tipo apropriado para cada uma das constantes.
 
-export interface Linguagem {
-    nome: string;
-    tipada: boolean;
-}
-
-const linguagem: Linguagem = {
+const linguagem = {
     nome: 'Typescript',
     tipada: true,
 }
 
-export interface Pessoa {
-    nome: string;
-    sobrenome: string;
-    idade: number;
-    amigos: Pessoa[];
-}
-
-const pessoa: Pessoa = {
+const pessoa = {
     nome: 'Alan',
     sobrenome: 'Jhonnes',
     idade: 31,

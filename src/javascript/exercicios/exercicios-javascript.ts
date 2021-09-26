@@ -3,10 +3,8 @@
  * @param numeros 
  */
 export function somentePares(numeros: number[]): number[] {
-    return numeros.filter(ehPar);
+    return numeros;
 }
-
-const ehPar: (x: number) => boolean = x => x % 2 === 0;
 
 console.log(somentePares([1, 2, 3, 4]));
 
@@ -15,11 +13,7 @@ console.log(somentePares([1, 2, 3, 4]));
  * @param numeros 
  */
 export function somaNumeros(numeros: number[]): number {
-    return numeros.reduce(soma, 0);
-}
-
-function soma(a: number, b: number): number {
-    return a + b;
+    return 0;
 }
 
 /**
@@ -27,7 +21,7 @@ function soma(a: number, b: number): number {
  * @param numeros 
  */
 export function elevarAoQuadrado(numeros: number[]): number[] {
-    return numeros.map(x => x * x);
+    return numeros;
 }
 
 console.log(elevarAoQuadrado([1, 2, 3, 4]));

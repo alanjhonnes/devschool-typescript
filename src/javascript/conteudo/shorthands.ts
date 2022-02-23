@@ -6,9 +6,10 @@ const myArrowFn = (a, b) => {
 
 const myArrowFnShorthand = () => 'result';
 
-const myArrowFnObjeto = () => {
-    resultado: 'result'
-};
+const myArrowFnObjeto = () => ({
+    resultado: 'valor'
+});
+
 
 const myArrowFnObjetoShorthand = () => (
     {

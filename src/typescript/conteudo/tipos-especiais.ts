@@ -19,4 +19,4 @@ if (idk === undefined) {
 
 if (idk instanceof Date) {
     idk
-};
+}

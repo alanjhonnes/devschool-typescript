@@ -1,4 +1,4 @@
-let alan = "Alan";
+const alan = "Alan";
 const id = 1;
 
 type YesOrNo = "y" | "n";
@@ -18,6 +18,6 @@ type Generico<TipoItem extends number, TipoNome = string> = {
 }
 
 const generico: Generico<1 | 2 | 3> = {
-    item: 3,
+    item: 2,
     nome: 'nome'
 }

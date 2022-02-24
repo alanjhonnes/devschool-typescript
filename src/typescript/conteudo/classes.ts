@@ -34,5 +34,5 @@ function classFn(klass: MinhaClasse) {
     // klass.;
 }
 
-
 const minhaClasse = new MinhaClasse(3);
+minhaClasse.publica3

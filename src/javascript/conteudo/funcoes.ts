@@ -11,9 +11,12 @@ const funcao = function () {
 const arrowFn = () => {
     const a = 5;
 
-    () => {
+    return () => {
         a
+        const b = 10
+        return b
     }
 }
 
+const x = arrowFn()
 

@@ -33,4 +33,8 @@ const totalNumeros = arrayNumeros
         return acumulador + valorAtual
     }, 0)
 
-export const pessoa = arrayDeObjetos.find(pessoa => pessoa.nome === 'Alan');
+const arrayNumeros2 = arrayNumeros.concat()
+
+export const pessoa = arrayDeObjetos.find(pessoa => pessoa.nome === 'Aldfgfdgan');
+
+console.log(pessoa)

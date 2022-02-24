@@ -2,11 +2,13 @@ export let str: string = "";
 
 export let numbr: number = 10;
 
-export let fn: Function = function () {
+export const alan = "alan"
+
+export let fn = function () {
     return true;
 };
 
-export const arr: Array<number> = [1];
+export const arr: string[] = [];
 
 export type Pessoa = {
     nome: string;

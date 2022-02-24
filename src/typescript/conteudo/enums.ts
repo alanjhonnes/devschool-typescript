@@ -8,4 +8,4 @@ function doAction(action: ACTION) {
     console.log(action);
 }
 
-doAction(ACTION.PAUSE)
+doAction(ACTION.PLAY)

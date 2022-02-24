@@ -16,6 +16,8 @@ export function somaNumeros(numeros: number[]): number {
     return 0;
 }
 
+somaNumeros([1, 2, 3, 4, 5])
+
 /**
  * Complete a função para retornar um vetor com o quadrado de cada valor
  * @param numeros 
